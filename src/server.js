@@ -41,7 +41,6 @@ const server = app.listen(PORT, () => {
     logger.info(`Server running on port ${PORT}`);
     logger.info(`Environment: ${config.nodeEnv}`);
     logger.info(`Health check: http://localhost:${PORT}/api/health`);
-    logger.info(`Frontend: http://localhost:${PORT}`);
 });
 
 export default server;
